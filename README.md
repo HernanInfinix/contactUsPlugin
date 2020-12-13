@@ -5,3 +5,6 @@ BuildFire Plugin to allow users to add the contact information for their busines
 ### How to run test cases
 - npm install
 - karma start
+
+### Build
+- npm run-script build

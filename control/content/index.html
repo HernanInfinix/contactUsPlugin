@@ -30,4 +30,15 @@
   <div class="content" ng-view=""></div>
 </div>
 </body>
+<script>
+      function registerEvents() {
+        buildfire.analytics.registerEvent({
+            title: "Contact Professional",
+            key: "CONTACT_PROFESSIONAL",
+            description: "When a user wants to contact a professional,"
+        }, { silentNotification: false });
+    }
+
+    registerEvents();
+</script>
 </html>
